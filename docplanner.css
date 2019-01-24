@@ -1,0 +1,101 @@
+/* .col-md-6 {
+    justify-content: flex-end;
+    /* align-content-md- */
+    /* align-items-start; */
+/* } */ 
+.titre{
+    color: #00b39b;
+}
+span{
+    color:   #00b39b;
+}
+ul {
+    list-style-type: none;
+} 
+.patients{
+    border: 2px solid #00ccb1;
+    border-radius: 25px;
+    background: #00ccb1;
+    color: white;
+    overflow: hidden;
+
+}
+
+.doctors{
+
+    border: 2px solid #3d83df;
+    border-radius: 25px;
+    background: #3d83df;
+    color: white;
+    overflow: hidden;
+}
+select{
+    width: 144%;
+}
+
+
+.global{
+    display: flex;
+    justify-content: space-between;
+/* flex: flex-md-row */
+}
+.platform {
+    background-color: #e5faf8;
+    overflow:hidden;
+
+    height:500%;
+    background-color:#ccefff;
+}
+.world{
+    background-color: white
+}
+
+.navbar-brand{
+    font-size: medium;
+    color: #747474 !important;
+}
+
+footer{
+    font-size: small;
+    color: #747474;
+}
+.row{
+    color: #747474;
+}
+button{
+color: white
+}
+
+
+.imageplatform{
+    overflow: hidden;
+}
+
+.logodoc2{
+    display: flex;
+    justify-content: space-between
+}
+.znanylekar,.znamylekar, .doctoralia,.MioDottore,.DoktorTakvimi{
+color: #747474;
+}
+.world{
+    margin-top: 5%
+}
+
+.white{
+    color: white
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn{
+    font-size: 70% !important;
+}
+
+@media only screen and (max-width: 375px)  {
+    .logodoc2  {
+    flex-wrap: wrap
+    }
+}
